@@ -1,0 +1,42 @@
+ part 1 question:
+Q:1 
+ANS: Document object Model shows the HTML page as objects.
+JavaScript uses DOM to change or control HTML elements.
+
+Q:2
+Ans:HTML is the root, Head and Body are its children, and they can have their own child elements.
+
+Q:3
+Ans:With DOM: JavaScript can easily access and change HTML elements, making websites interactive and dynamic.
+Without DOM: You cannot modify content or respond to user actions easily, making pages static and less interactive.
+
+Example: Clicking a “Like” button on a social media post updates the count instantly using DOM.
+
+Q:4
+Ans:Explanation: DOM lets JavaScript change webpage content and make it interactive. Without DOM, pages stay the same.
+
+:Real-life Example: Like buttons on Facebook update the count instantly using DOM.
+
+Q:5
+Ans:Get elements by ID, class, or tag to change text or style.
+
+Q:6
+Ans:innerHTML, innerText, textContent, append, appendChild change or add content/elements.
+
+Example: Updating a like button or comment list on a website.
+
+part 2 MCQS :
+
+
+1.document Object model 
+2.document
+3.getElementbyId()
+4.getElementbyclass()
+5.queryslector()
+7.inerhtml
+8.apendchild()                 
+9.removechild()
+10.creatElement()
+
+
+

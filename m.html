@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- task 1 -->
+    <p id="p">Hello</p>
+<button onclick="change()">Click</button>
+
+<script>
+function change(){
+ document.getElementById("p").innerHTML="Text Changed";
+}
+</script>
+<!-- task 2 -->
+<ul id="list">
+<li>Item 1</li>
+</ul>
+
+<button onclick="add()">Add</button>
+
+<script>
+function add(){
+ var li=document.createElement("li");
+ li.innerHTML="New Item";
+ document.getElementById("list").appendChild(li);
+}
+</script>   
+<!-- task 3 -->
+<ul id="list">
+<li>Item 1</li>
+<li>Item 2</li>
+</ul>
+
+<button onclick="removeItem()">Remove</button>
+
+<script>
+function removeItem(){
+ document.getElementById("list").lastElementChild.remove();
+}
+</script>
+<!-- task 4 -->
+<h1 id="h">Old Heading</h1>
+<button onclick="rep()">Replace</button>
+
+<script>
+function rep(){
+ document.getElementById("h").innerHTML="New Heading";
+}
+</script>
+</body>
+</html>
